@@ -21,6 +21,6 @@
         }
     },
     "require": {
-        "laravel/passport": "^9.3",
+        "laravel/passport": "^9.3"
     }
 }
