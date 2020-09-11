@@ -77,10 +77,10 @@ WHO_ARE_YOU_BASE_URL=http://localhost
 WHO_ARE_YOU_BASE_URL=http://nginx
 ```
 # Todos
-#### 1.complete the doc (add the document for the routes and how to use it)
-#### 2.add the push to the vendor for the controller and repositoy directories
-#### 3.try to handle the above changes automaticly in the package (change the .env or auth.config filr)
-#### 4.just send the data of the request to the repositoty not the whole of the request
-#### 5.add the test to the project
-#### 6.add the phpcs to the project
-#### 7.add the ci/cd pipline to the project
+#### □ complete the doc (add the document for the routes and how to use it)
+#### □ add the push to the vendor for the controller and repositoy directories
+#### □ try to handle the above changes automaticly in the package (change the .env or auth.config filr)
+#### □ just send the data of the request to the repositoty not the whole of the request
+#### □ add the test to the project
+#### □ add the phpcs to the project
+#### □ add the ci/cd pipline to the project
