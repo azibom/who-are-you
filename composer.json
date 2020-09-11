@@ -1,0 +1,26 @@
+{
+    "name": "azibom/whoAreYou",
+    "description": "Laravel api authontication",
+    "authors": [
+        {
+            "name": "azibom",
+            "email": "mrsh13610@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Azibom\\whoAreYou\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Azibom\\whoAreYou\\WhoAreYouServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "laravel/passport": "^9.3",
+    }
+}
