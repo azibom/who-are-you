@@ -77,6 +77,6 @@ WHO_ARE_YOU_BASE_URL=http://localhost
 WHO_ARE_YOU_BASE_URL=http://nginx
 ```
 # Todos
-1.complete the doc (add the document for the routes and how to use it)
-2.add the push to the vendor for the controller and repositoy
-3.try to handle the above changes automaticly in the package (change the .env or auth.config filr)
+#### 1.complete the doc (add the document for the routes and how to use it)
+#### 2.add the push to the vendor for the controller and repositoy
+#### 3.try to handle the above changes automaticly in the package (change the .env or auth.config filr)
