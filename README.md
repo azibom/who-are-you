@@ -1,1 +1,2 @@
-# -azibom-whoAreYou
+# whoAreYou
+Laravel api authentication package
