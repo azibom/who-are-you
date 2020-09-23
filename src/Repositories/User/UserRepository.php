@@ -48,7 +48,7 @@ class UserRepository implements UserRepositoryInterface
     /**
      * register function
      *
-     * @param Request $request request var
+     * @param  Request $request request var
      * @return mix
      */
     public function register(Request $request) {

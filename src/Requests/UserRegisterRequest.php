@@ -47,7 +47,7 @@ class UserRegisterRequest extends FormRequest
     /**
      * failedValidation function
      *
-     * @param Validator s$validator That is a validator
+     * @param  Validator $validator That is a validator
      * @return void
      */
     protected function failedValidation(Validator $validator) {
