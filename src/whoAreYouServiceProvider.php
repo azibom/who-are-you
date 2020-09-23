@@ -28,5 +28,6 @@ class WhoAreYouServiceProvider extends ServiceProvider
     {
         Passport::routes();
         $this->loadRoutesFrom(__DIR__.'/routes/api.php');
+        
     }
 }
