@@ -1,3 +1,4 @@
+![Build](https://travis-ci.com/azibom/-azibom-whoAreYou.svg?branch=master)
 # who-are-you
 Laravel api authentication package
 # Instalation
