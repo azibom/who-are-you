@@ -49,7 +49,7 @@ class UserRepository implements UserRepositoryInterface
      * register function
      *
      * @param  Request $request request var
-     * @return mix
+     * @return mixed
      */
     public function register(Request $request) {
         $email             = $request->email;
@@ -66,7 +66,7 @@ class UserRepository implements UserRepositoryInterface
      * login function
      *
      * @param Request $request request var
-     * @return mix
+     * @return mixed
      */
     public function login(Request $request) {
         $email    = $request->email;
@@ -89,7 +89,7 @@ class UserRepository implements UserRepositoryInterface
      * refreshToken function
      *
      * @param Request $request request var
-     * @return mix
+     * @return mixed
      */
     public function refreshToken(Request $request) {
         if (is_null($request->header('Refreshtoken'))) {
@@ -115,7 +115,7 @@ class UserRepository implements UserRepositoryInterface
     /**
      * details function
      *
-     * @return mix
+     * @return mixed
      */
     public function details() {
         $user     = Auth::user();
@@ -127,7 +127,7 @@ class UserRepository implements UserRepositoryInterface
      * logout function
      *
      * @param Request $request request var
-     * @return mix
+     * @return mixed
      */
     public function logout(Request $request) {
         $request->user()->token()->revoke();
@@ -155,7 +155,7 @@ class UserRepository implements UserRepositoryInterface
      *
      * @param string $email    email var
      * @param string $password password var
-     * @return mix
+     * @return mixed
      */
     public function getTokenAndRefreshToken(string $email, string $password) {
         $oClient    = $this->getOclient();

@@ -31,7 +31,7 @@ interface UserRepositoryInterface
      * register function
      *
      * @param  Request $request request var
-     * @return mix
+     * @return mixed
      */
     public function register(Request $request);
 
@@ -39,7 +39,7 @@ interface UserRepositoryInterface
      * login function
      *
      * @param Request $request request var
-     * @return mix
+     * @return mixed
      */
     public function login(Request $request);
 
@@ -47,14 +47,14 @@ interface UserRepositoryInterface
      * refreshToken function
      *
      * @param Request $request request var
-     * @return mix
+     * @return mixed
      */
     public function refreshToken(Request $request);
 
     /**
      * details function
      *
-     * @return mix
+     * @return mixed
      */
     public function details();
 
@@ -62,7 +62,7 @@ interface UserRepositoryInterface
      * logout function
      *
      * @param Request $request request var
-     * @return mix
+     * @return mixed
      */
     public function logout(Request $request);
 
@@ -80,7 +80,7 @@ interface UserRepositoryInterface
      *
      * @param string $email    email var
      * @param string $password password var
-     * @return mix
+     * @return mixed
      */
     public function getTokenAndRefreshToken(string $email, string $password);
 
