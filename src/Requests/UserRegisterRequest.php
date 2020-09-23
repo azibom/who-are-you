@@ -1,12 +1,12 @@
 <?php
 /**
- * Test
+ * UserRegisterRequest
  *
  * PHP version 7
  *
- * @category Template_Class
- * @package  Template_Class
- * @author   Author <author@domain.com>
+ * @category Request
+ * @package  Request
+ * @author   Azibom <mrsh13610@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */
@@ -18,13 +18,11 @@ use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Exceptions\HttpResponseException;
 
 /**
- * Template Class Doc Comment
+ * UserRegisterRequest Class
  *
- * Template Class
- *
- * @category Template_Class
- * @package  Template_Class
- * @author   Author <author@domain.com>
+ * @category Request
+ * @package  Request
+ * @author   Azibom <mrsh13610@gmail.com>
  * @license  https://opensource.org/licenses/MIT MIT License
  * @link     http://localhost/
  */
@@ -49,7 +47,7 @@ class UserRegisterRequest extends FormRequest
     /**
      * failedValidation function
      *
-     * @param Validator $validator that is validator
+     * @param Validator $validator That is validator
      * @return void
      */
     protected function failedValidation(Validator $validator) {
